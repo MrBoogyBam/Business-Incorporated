@@ -72,3 +72,24 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background-color: rgb(8, 8, 8);
 }
+
+.mm-button {
+    width: 120px;
+    height: 47px;
+    font-size: 23px;
+    box-shadow: 0 12px rgb(0, 84, 122);
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(10, 163, 235);
+    margin: 17px;
+}
+
+.mm-button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 138, 202);
+}
+
+.mm-button:active {
+    box-shadow: 0px 4px rgb(0, 59, 87);
+    transform: translateY(17%);
+}

@@ -55,3 +55,7 @@ function setAge(i) {
     map.get("user-name-" + ageList[i].name).innerHTML = ageList[i].name;
     map.get("user-age-" + ageList[i].name).innerHTML = ageList[i].age;
 }
+
+document.getElementById("mm-button").onclick = function() {
+    window.location.href = "../index.html"
+}
