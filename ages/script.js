@@ -21,7 +21,7 @@ const ageList = [
     },
     {
         name: "sashagames2012",
-        birthdate: "3/8/2007"
+        birthdate: new Date("8/3/2021")
     }
 ];
 
