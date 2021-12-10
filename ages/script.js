@@ -18,6 +18,10 @@ const ageList = [
     {
         name: "SquillyBobJoe",
         birthdate: new Date("21/21/21")
+    },
+    {
+        name: "sashagames2012",
+        birthdate: "3/8/2007"
     }
 ];
 
